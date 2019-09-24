@@ -49,6 +49,8 @@ Convolutional Neural Network with Word Embeddings for Chinese Word Segmentation
 
 >然后生成训练结果保存于model-pku或model-msr中。  
 
+>4.代码通过.sh文件运行，在向train.py中输入命令行参数，再然后调用tagger.py中的函数与类进行训练。
+
 实验结论
 ---
 在PKU和MSR两种基准数据集上对模型进行了评价。在没有任何特征工程的情况下，该模型在数据集PKU上获得95.7%的竞争得分，在数据集MSR上获得97.3%的竞争得分。
