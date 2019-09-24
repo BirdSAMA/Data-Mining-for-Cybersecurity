@@ -1,0 +1,8 @@
+Namespace(active_type='glu', batch_size=100, channels=200, dev_path='data/datasets/sighan2005-msr/dev.txt', dropout_emb=0.2, dropout_hidden=0.2, emb_size=200, eval_batch_size=1000, fix_word_emb=0, hidden_layers=5, kernel_size=3, lamd=0, max_epoches=100, model_root='model-msr', optimizer='adam_0.001', pre_trained_emb_path='data/embeddings/news_tensite.w2v200', pre_trained_word_emb_path=None, reserve_all_word_emb=0, task='cws', test_path='data/datasets/sighan2005-msr/test.txt', training_path='data/datasets/sighan2005-msr/train.txt', use_bn=0, use_crf=1, use_wn=1, word_emb_size=50, word_window=0)
+Preparing data...Finished.
+Start building the network...Finished.
+Finished.
+Start training the network...
+5062 of 5101 character embeddings were loaded from pre-trained.
+0 of 2 word embeddings were loaded from pre-trained.
+Starting epoch 1...
