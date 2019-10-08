@@ -3,7 +3,7 @@
 
 ##简介
 该项目设计是为了检测我们日常使用所遇到的URL是否为恶意URL。  
-使用数据集为网站https://www.kaggle.com/antonyj453/urldataset中的数据。  
+使用数据集来自网站https://www.kaggle.com/antonyj453/urldataset
 利用sklearn来简单实现决策树算法对训练集进行实验。  
 
 
